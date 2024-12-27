@@ -1,0 +1,4 @@
+DB_store
+#ignoring node_modules
+
+node_modules

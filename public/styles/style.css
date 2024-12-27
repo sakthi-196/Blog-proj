@@ -1,0 +1,128 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   padding:10px;
+}
+#body {
+   width:100%;
+   display:flex;
+   justify-content: center; /* Height of the footer */
+}
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:50px;   /* Height of the footer */
+}
+.home-content{
+   text-align: center;
+   font-size:20px;
+   padding:15px;
+   margin:20px;
+}
+.home-content>p{
+   text-align: justify;
+}
+
+.contact{
+  padding:15px;
+  margin:auto;
+  text-align: center;
+  font-size:20px;
+}
+.contact>a{
+   text-decoration: none;
+   margin:5px;
+}
+.contact>p{
+   text-align: justify;
+}
+.about{
+   text-align: center;
+   font-size:20px;
+   width:600px;
+   padding:15px;
+}
+.about>p{
+   text-align: justify;
+}
+.compose{
+   margin:auto;
+}
+.compose>h2{
+   text-align: center;
+}
+.compose>form{
+   margin-top: 50px;
+}
+.compose>form>.comInp{
+   color:black;
+   font-size: 18px;
+   border-radius: 5px;
+   line-height: 22px;
+   background-color: transparent;
+   border: 2px solid #3586ff;
+   transition: all 0.3s;
+   padding:13px;
+   margin-bottom: 15px;
+   width:100%;
+   box-sizing: border-box;
+   outline:0;
+}
+.compose>form>.comInp:focus{
+   border:2px solid darkblue ;
+}
+.compose>form>textarea{
+   height: 150px;
+   line-height: 150%;
+   resize: vertical;
+}
+/*post*/
+.posts>a{
+   color:black;
+   text-decoration: none;
+}
+/*blogs*/
+.blogs>.heading{
+   text-align: center;
+}
+/*edit form*/
+.edit{
+   margin:auto;
+}
+.edit>h2{
+   text-align: center;
+}
+.edit>form{
+   margin-top: 50px;
+}
+.edit>form>.editInp{
+   color:black;
+   font-size: 18px;
+   border-radius: 5px;
+   line-height: 22px;
+   background-color: transparent;
+   border: 2px solid #3586ff;
+   transition: all 0.3s;
+   padding:13px;
+   margin-bottom: 15px;
+   width:100%;
+   box-sizing: border-box;
+   outline:0;
+}
+.edit>form>.editInp:focus{
+   border:2px solid darkblue ;
+}
+.edit>form>textarea{
+   height: 150px;
+   line-height: 150%;
+   resize: vertical;
+}

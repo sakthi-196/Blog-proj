@@ -1,0 +1,13 @@
+<%- include("partials/header") %>
+<div class="posts">
+<!-- edit by clicking title -->
+<a href="/edit/<%=title%>"><h1><%=title%></h1></a>
+<small>
+    <%=date %>
+</small><br><br>
+<p><%=content%></p>
+<p>-<%= Author %></p>
+<a class="btn btn-success"href="/edit/<%=title%>">Edit</a>
+<a class="btn btn-danger"href="/delete/<%=title%>">Delete</a>
+</div>
+<%- include("partials/footer") %>

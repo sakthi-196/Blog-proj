@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %>
+<div class="blogs">
+<h1 class="heading">Available Posts</h1><br>
+<% if (locals.posts) { %>
+    <%posts.forEach((post)=>{%>
+        <h1><%= post.title %></h1>
+        <p><%= post.date %></p>
+        <p><%= post.content.substring(0,100)+ "..." %>
+        <a href="/posts/<%= post.title %>">Read More</a>
+        </p>
+        <p>-<%= post.Author %></p>
+    <%});%>
+<% } %>  
+</div>
+<%- include("partials/footer.ejs") %>

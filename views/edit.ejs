@@ -1,0 +1,12 @@
+<%- include("partials/header.ejs") %>
+<div class="edit">
+    <h2>Edit here...</h2>
+<form action="/edit/<%= title %>" method="post">
+    <input type="text" placeholder="Title" name="heading" class="editInp" value="<%= title %>"required><br>
+    <input type="text" placeholder="Your Name" name="author" class="editInp" value="<%= Author %>" >
+    <textarea placeholder="content" name="para" cols="40" rows="5"class="editInp" required><%= content %></textarea><br>
+    <button type="submit" class="btn btn-success" onclick="return confirm('Please confirm')">Publish</button>
+    <a class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this item?')" href="/delete/<%=title%>">Delete</a>
+</form>
+</div>
+<%- include("partials/footer.ejs") %>
