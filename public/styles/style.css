@@ -61,13 +61,13 @@ footer {
    text-align: center;
 }
 .compose>form{
-   margin-top: 50px;
+   margin-top: 30px;
 }
 .compose>form>.comInp{
    color:black;
    font-size: 15px;
    border-radius: 5px;
-   line-height: 22px;
+   line-height: 18px;
    background-color: transparent;
    border: 2px solid #3586ff;
    transition: all 0.3s;
@@ -82,7 +82,7 @@ footer {
 }
 .compose>form>textarea{
    height: 150px;
-   line-height: 150%;
+   line-height: 130%;
    resize: vertical;
 }
 /*post*/
