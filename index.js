@@ -2,7 +2,7 @@ import express from "express"
 import bodyParser from "body-parser"
 import lodash from "lodash"
 const app=express();
-const port=2019;
+const port=process.env.PORT || 2019;
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"))
