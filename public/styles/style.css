@@ -126,3 +126,33 @@ footer {
    line-height: 150%;
    resize: vertical;
 }
+@media screen and (max-width: 600px) {
+   .home,.home-content,.home-msg,.home-content>h1{
+      margin-top:0px;
+      margin-bottom: 0px;
+   }
+   .home-content{
+      font-size: 18px;
+   }
+   .compose,.edit{
+      width: 90%;
+   }
+}
+@media screen and (max-width: 470px){
+   .home,.home-content,.home-msg,.home-content>h1{
+      margin-top:0px;
+      margin-bottom: 0px;
+   }
+   .home-content{
+      font-size: 16px;
+   }
+   .nav-item,.nav-link,.nav{
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+   }
+   .compose,.edit{
+      width: 80%;
+      padding:20px;
+   }
+}
